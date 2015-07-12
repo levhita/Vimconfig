@@ -14,6 +14,7 @@ Plugin 'gmarik/Vundle.vim'
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'groenewege/vim-less'
+Plugin 'jewes/Conque-Shell'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -31,8 +32,9 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 "Maps
-let mapleader=","
 nnoremap <Leader>m :w <BAR> !lessc % > %:p:r.css<CR><space>
 
-colorscheme zellner
-
+"Customizations
+let mapleader=","
+colorscheme delek
+set nowrap

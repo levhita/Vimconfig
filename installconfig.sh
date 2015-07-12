@@ -5,7 +5,7 @@ if [ ! -e ~/.vim/bundle/Vundle.vim ]; then
 	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 fi
 
-#Copy the vimrc config, saves an incremental backup if it already exists
+#Saves an incremental backup of vimrc if it already exists
 name=~/.vimrc
 if [[ -e $name ]] ; then
     i=0
@@ -14,7 +14,10 @@ if [[ -e $name ]] ; then
     done
     name=$name-$i
 fi
-cp vimrc $name
+cp ~/.vimrc $name
+
+#Copy vimrc config
+cp vimrc ~/.vimrc
 
 #Update plugins
 vim +PluginInstall +qall
