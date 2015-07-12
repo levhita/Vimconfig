@@ -33,3 +33,6 @@ filetype plugin indent on    " required
 "Maps
 let mapleader=","
 nnoremap <Leader>m :w <BAR> !lessc % > %:p:r.css<CR><space>
+
+colorscheme zellner
+
