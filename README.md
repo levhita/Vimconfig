@@ -12,4 +12,7 @@ If you want to update your repo, copy the vimrc back to the repo(using updaterep
 git commit -a -m 'describe changes'
 git push origin master
 ```
-
+##Changes
+* Added Vlundle to make installing of plugins easier
+* Added custom ',' leader
+* Added vim-less plugin
