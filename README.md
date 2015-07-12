@@ -16,3 +16,4 @@ git push origin master
 * Added Vlundle to make installing of plugins easier
 * Added custom ',' leader
 * Added vim-less plugin
+* Added ConqueTerm
