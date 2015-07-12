@@ -38,3 +38,4 @@ nnoremap <Leader>m :w <BAR> !lessc % > %:p:r.css<CR><space>
 let mapleader=","
 colorscheme delek
 set nowrap
+set number
