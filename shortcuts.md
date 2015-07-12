@@ -1,5 +1,4 @@
-|Command | Description|
-|________|__________|
-
-|new <file> & vnew <file> | Opens a new split window with |
+ Command                 | Description
+-------------------------|------------
+new <file> & vnew <file> | Opens a new split window with 
 
